@@ -1,0 +1,140 @@
+{
+  "modules": [
+    {
+      "title": "Web Development",
+      "description": "Covers HTML, CSS, JavaScript, and React fundamentals.",
+      "id": "web-development",
+      "quiz": [
+        { "question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "HighText Machine Language", "HyperTabular Markup Language", "None"], "answer": "Hyper Text Markup Language" },
+        { "question": "Which tag is used to create a hyperlink in HTML?", "options": ["<a>", "<link>", "<href>", "<url>"], "answer": "<a>" },
+        { "question": "Which CSS property is used to change text color?", "options": ["color", "font-color", "text-color", "style"], "answer": "color" },
+        { "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"], "answer": "Cascading Style Sheets" },
+        { "question": "How do you include JavaScript in HTML?", "options": ["<js>", "<javascript>", "<script>", "<code>"], "answer": "<script>" },
+        { "question": "Which method is used to add an element at the end of an array in JS?", "options": ["push()", "add()", "append()", "concat()"], "answer": "push()" },
+        { "question": "Which symbol is used for comments in JavaScript?", "options": ["//", "/*", "#", "<!--"], "answer": "//" },
+        { "question": "React is a...", "options": ["Framework", "Library", "Programming language", "Database"], "answer": "Library" },
+        { "question": "What is the use of useState in React?", "options": ["Manage state", "Define routes", "Style components", "Access APIs"], "answer": "Manage state" },
+        { "question": "Which hook is used to perform side-effects in React?", "options": ["useState", "useEffect", "useRef", "useCallback"], "answer": "useEffect" },
+        { "question": "Which HTML tag is used to define an unordered list?", "options": ["<ul>", "<ol>", "<li>", "<list>"], "answer": "<ul>" },
+        { "question": "Which property is used to make elements flex in CSS?", "options": ["display: flex", "flex: 1", "position: flex", "flexbox: true"], "answer": "display: flex" },
+        { "question": "JavaScript is a...", "options": ["Compiled Language", "Interpreted Language", "Markup Language", "Styling Language"], "answer": "Interpreted Language" },
+        { "question": "Which tag is used for the largest heading in HTML?", "options": ["<h6>", "<h3>", "<h1>", "<heading>"], "answer": "<h1>" },
+        { "question": "Which event is triggered when a user clicks an element?", "options": ["onhover", "onchange", "onload", "onclick"], "answer": "onclick" },
+        { "question": "React components must return a...", "options": ["JS file", "HTML string", "JSX element", "Class"], "answer": "JSX element" },
+        { "question": "What does JSX stand for?", "options": ["JavaScript XML", "JavaScript Extension", "Java Source XML", "None"], "answer": "JavaScript XML" },
+        { "question": "Which CSS property sets background color?", "options": ["background-color", "bg-color", "color", "fill-color"], "answer": "background-color" },
+        { "question": "Which function is used to create components in React?", "options": ["function", "component()", "render()", "useComponent()"], "answer": "function" },
+        { "question": "Which is used to handle user inputs in React?", "options": ["useInput()", "useState()", "handleInput()", "captureInput()"], "answer": "useState()" }
+      ]
+    }
+  ]
+}
+
+
+{
+  "modules": [
+    {
+      "title": "Software Engineering",
+      "description": "Introduction to the principles of software engineering, development methodologies, and best practices.",
+      "id": "software-engineering",
+      "quiz": [
+        { "question": "What does SDLC stand for?", "options": ["Software Development Life Cycle", "System Design Life Cycle", "Software Design Life Cycle", "System Development Life Cycle"], "answer": "Software Development Life Cycle" },
+        { "question": "Which methodology focuses on incremental development?", "options": ["Waterfall", "Agile", "V-Model", "Spiral"], "answer": "Agile" },
+        { "question": "What is a UML diagram?", "options": ["Uniform Modeling Language", "Universal Modeling Language", "Unified Modeling Language", "Unified Modeling Logic"], "answer": "Unified Modeling Language" },
+        { "question": "Which is the first phase of the SDLC?", "options": ["Design", "Testing", "Implementation", "Requirement Gathering"], "answer": "Requirement Gathering" },
+        { "question": "Which tool is commonly used for version control?", "options": ["JIRA", "Git", "Eclipse", "Photoshop"], "answer": "Git" },
+        { "question": "What is refactoring?", "options": ["Changing the software design without affecting functionality", "Modifying functionality", "Debugging code", "Adding new features"], "answer": "Changing the software design without affecting functionality" },
+        { "question": "What is a use case diagram?", "options": ["A diagram to represent class relationships", "A diagram for interaction between users and the system", "A diagram for database schema", "A diagram for system architecture"], "answer": "A diagram for interaction between users and the system" },
+        { "question": "Which phase comes after the testing phase in SDLC?", "options": ["Deployment", "Design", "Maintenance", "Requirement Gathering"], "answer": "Deployment" },
+        { "question": "What is the purpose of unit testing?", "options": ["To test individual components or functions of software", "To test overall system behavior", "To test end-user experience", "To test database performance"], "answer": "To test individual components or functions of software" },
+        { "question": "Which of these is a popular Agile framework?", "options": ["Scrum", "Waterfall", "Spiral", "V-Model"], "answer": "Scrum" },
+        { "question": "What is the goal of software design?", "options": ["To write code", "To document requirements", "To ensure the software is scalable, maintainable, and efficient", "To test features"], "answer": "To ensure the software is scalable, maintainable, and efficient" },
+        { "question": "What is the purpose of an object-oriented design?", "options": ["To organize software into classes and objects", "To model real-world scenarios", "To speed up development", "All of the above"], "answer": "All of the above" },
+        { "question": "What is pair programming?", "options": ["Two developers working on the same code simultaneously", "Writing code without any testing", "A software testing technique", "Programming alone to complete tasks quickly"], "answer": "Two developers working on the same code simultaneously" },
+        { "question": "What is the primary advantage of using Agile methodology?", "options": ["It allows for rapid development and constant feedback", "It is less costly", "It focuses on strict documentation", "It is suitable only for large projects"], "answer": "It allows for rapid development and constant feedback" }
+      ]
+    }
+  ]
+}
+
+
+
+{
+  "modules": [
+    {
+      "title": "Cyber Security",
+      "description": "Covers basic concepts of cyber security, threats, and defenses.",
+      "id": "cyber-security",
+      "quiz": [
+        { "question": "What does VPN stand for?", "options": ["Virtual Private Network", "Virtual Public Network", "Viral Protection Network", "None of the above"], "answer": "Virtual Private Network" },
+        { "question": "What is a DDoS attack?", "options": ["Distributed Denial of Service", "Direct Denial of Service", "Denial of Service", "None of the above"], "answer": "Distributed Denial of Service" },
+        { "question": "Which of these is a common method of phishing?", "options": ["Social Engineering", "Brute Force", "SQL Injection", "Cross-Site Scripting"], "answer": "Social Engineering" },
+        { "question": "Which tool is used to scan for vulnerabilities in systems?", "options": ["Wireshark", "Nessus", "Nmap", "JMeter"], "answer": "Nessus" },
+        { "question": "What is the main purpose of a firewall?", "options": ["To block viruses", "To protect systems from unauthorized access", "To monitor internet speed", "To encrypt data"], "answer": "To protect systems from unauthorized access" },
+        { "question": "What does ransomware do?", "options": ["Encrypts files and demands payment", "Steals sensitive data", "Hacks into networks", "Deletes files permanently"], "answer": "Encrypts files and demands payment" },
+        { "question": "Which of these is a security protocol?", "options": ["HTTPS", "HTTP", "FTP", "SMTP"], "answer": "HTTPS" },
+        { "question": "What is two-factor authentication?", "options": ["A password system", "A system that requires two forms of identification", "A way to verify email", "A way to track users"], "answer": "A system that requires two forms of identification" },
+        { "question": "Which of these is a type of malware?", "options": ["Spyware", "Adware", "Ransomware", "All of the above"], "answer": "All of the above" },
+        { "question": "What is the principle of least privilege?", "options": ["Users should have the minimum level of access necessary", "Users should be able to access everything", "Users should have elevated privileges", "Users should not have any privileges"], "answer": "Users should have the minimum level of access necessary" },
+        { "question": "Which of these is not a cyber attack?", "options": ["Phishing", "Man-in-the-middle", "Ransomware", "Defragmentation"], "answer": "Defragmentation" },
+        { "question": "What is a botnet?", "options": ["A network of infected computers controlled by a hacker", "A security protocol", "A kind of virus", "A type of encryption"], "answer": "A network of infected computers controlled by a hacker" },
+        { "question": "What is a keylogger?", "options": ["A tool that monitors keystrokes", "A type of virus", "A firewall", "An encryption algorithm"], "answer": "A tool that monitors keystrokes" }
+      ]
+    }
+  ]
+}
+
+
+{
+  "modules": [
+    {
+      "title": "Networking",
+      "description": "Covers the fundamentals of computer networks, protocols, and network security.",
+      "id": "networking",
+      "quiz": [
+        { "question": "What does TCP stand for?", "options": ["Transmission Control Protocol", "Transmission Communication Protocol", "Transfer Control Protocol", "None of the above"], "answer": "Transmission Control Protocol" },
+        { "question": "Which protocol is used for secure communication on the internet?", "options": ["HTTP", "FTP", "HTTPS", "IP"], "answer": "HTTPS" },
+        { "question": "What is an IP address?", "options": ["Internet Protocol address", "Internet Public address", "Internal Protocol address", "None of the above"], "answer": "Internet Protocol address" },
+        { "question": "What does DNS stand for?", "options": ["Domain Name System", "Dynamic Network System", "Direct Network Service", "Domain Network Service"], "answer": "Domain Name System" },
+        { "question": "Which of the following is a type of network topology?", "options": ["Bus", "Tree", "Ring", "All of the above"], "answer": "All of the above" },
+        { "question": "What is the function of a router?", "options": ["Forward data packets between networks", "Send data to the same network", "Encrypt data", "None"], "answer": "Forward data packets between networks" },
+        { "question": "What is the primary role of a switch?", "options": ["To connect multiple devices on a network", "To route data to external networks", "To encrypt data", "To scan viruses"], "answer": "To connect multiple devices on a network" },
+        { "question": "What is a subnet mask?", "options": ["A tool for network encryption", "A method for dividing IP addresses into subnets", "A type of firewall", "A protocol for data routing"], "answer": "A method for dividing IP addresses into subnets" },
+        { "question": "Which layer of the OSI model is responsible for data encryption?", "options": ["Application", "Transport", "Session", "Presentation"], "answer": "Presentation" },
+        { "question": "What is the maximum length of an Ethernet cable?", "options": ["10 meters", "100 meters", "500 meters", "1000 meters"], "answer": "100 meters" },
+        { "question": "Which port does HTTP usually use?", "options": ["21", "80", "443", "25"], "answer": "80" },
+        { "question": "Which of the following is used for wireless communication?", "options": ["Ethernet", "Wi-Fi", "Bluetooth", "All of the above"], "answer": "All of the above" }
+      ]
+    }
+  ]
+}
+
+{
+  "modules": [
+    {
+      "title": "Database Management",
+      "description": "An introduction to database design, normalization, and SQL querying.",
+      "id": "database-management",
+      "quiz": [
+        { "question": "What does SQL stand for?", "options": ["Structured Query Language", "Simple Query Language", "System Query Language", "Standard Query Language"], "answer": "Structured Query Language" },
+        { "question": "What is normalization in a database?", "options": ["Reducing data redundancy", "Adding more data to tables", "Creating new tables", "Deleting rows"], "answer": "Reducing data redundancy" },
+        { "question": "Which SQL clause is used to filter records?", "options": ["WHERE", "SELECT", "FROM", "JOIN"], "answer": "WHERE" },
+        { "question": "What is a primary key?", "options": ["A unique identifier for each record in a table", "A type of foreign key", "A column used to filter records", "A command for adding rows"], "answer": "A unique identifier for each record in a table" },
+        { "question": "Which SQL statement is used to delete data from a table?", "options": ["DROP", "DELETE", "REMOVE", "CLEAR"], "answer": "DELETE" },
+        { "question": "What is the purpose of a foreign key?", "options": ["To create relationships between tables", "To index a table", "To filter data", "To specify constraints"], "answer": "To create relationships between tables" },
+        { "question": "Which of these is a type of database?", "options": ["Relational", "Non-relational", "Object-oriented", "All of the above"], "answer": "All of the above" },
+        { "question": "What does the JOIN clause do in SQL?", "options": ["Combines rows from two or more tables", "Deletes rows from a table", "Selects columns from a table", "None"], "answer": "Combines rows from two or more tables" },
+        { "question": "What is a database index?", "options": ["A table of contents", "A method to speed up data retrieval", "A list of all records", "None"], "answer": "A method to speed up data retrieval" },
+        { "question": "Which SQL command is used to create a new table?", "options": ["CREATE TABLE", "MAKE TABLE", "NEW TABLE", "INSERT TABLE"], "answer": "CREATE TABLE" },
+        { "question": "What does the COUNT() function do in SQL?", "options": ["Counts rows", "Summarizes data", "Joins tables", "Filters rows"], "answer": "Counts rows" }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+

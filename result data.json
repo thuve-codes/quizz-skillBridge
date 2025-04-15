@@ -1,0 +1,21 @@
+[
+    {
+    "_id": "661a1f55b3b9872a7cae4c89",
+    "userId": "user123",
+    "moduleId": "web-development",
+    "score": 18,
+    "totalQuestions": 20,
+    "correctAnswers": 18,
+    "date": "2025-04-13T12:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "userId": "user123",
+    "moduleId": "web-development",
+    "score": 18,
+    "totalQuestions": 20,
+    "correctAnswers": 18,
+    "date": "2025-04-13T12:00:00.000Z"
+  }
+]  
+  
